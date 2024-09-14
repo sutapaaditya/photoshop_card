@@ -132,6 +132,36 @@ h2{
   background-color: #a49cf7;
 
 }
+.id{
+  border: 2px solid salmon;
+  max-width: 25%;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.box img{
+  width: 150px;
+  height: 100px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.box{
+  background-color: black;
+  width: 180px;
+  height: 140px;
+  margin-top:0.1px ;
+  border-radius: 8px;
+  clip-path: polygon(0.1% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+.sub-box{
+  background-color: yellowgreen;
+  width: 160px;
+  height: 140px;
+  margin-top:-8.5rem;
+  border-radius: 8px;
+  margin-left: 126px;
+  transform: rotate(265deg);
+  clip-path: polygon(0.1% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
 @media(max-width: 768px){
   .container{
     display: grid;
