@@ -486,6 +486,18 @@ h2{
   margin-top: -79px;
   color: #040233;
 }
+.joker{
+  display: flex;
+  justify-content: center;
+  background-color: #2e5097;
+  width: 800px;
+  margin: 0 auto;
+  height: 320px;
+  border: 2px solid black;
+}
+.tango{
+  background-color:#afc4ee;
+}
 
 @media(max-width: 768px){
   .container{
