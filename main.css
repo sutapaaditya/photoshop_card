@@ -622,5 +622,27 @@ li{
   .toy{
     max-width: 100%;
   }
+  .joker{
+  width: 380px;
+  height: 525px;
+  }
+.tango{
+  width: 350px;
+  height: 490px;
+    border-bottom-left-radius: none;
+}
+.tony img{
+ width: 210px; 
+  height: 200px;
+}
+.para{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+  .Card{
+    margin-top: 5px;
+    margin-right: -2rem;
+  }
 }
 
