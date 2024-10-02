@@ -503,7 +503,7 @@ h2{
   border-bottom-left-radius: 45%;
 }
 .tony img{
- width: 210px; 
+  width: 210px; 
   height: 200px;
   margin: 15px 15px;
   border-top-right-radius: 50%;
@@ -515,8 +515,8 @@ h2{
   align-items: center;
   flex-direction: column;
 }
-.Card{
- margin-top: -220px; 
+.hero{
+  margin-top: -220px; 
   font-family: inherit;
   font-size: 28px;
   letter-spacing: 1px;
@@ -524,18 +524,18 @@ h2{
   margin-right: 120px;
 }
 .front{
-    font-family: "Merriweather", sans-serif;
+  font-family: "Merriweather", sans-serif;
   font-size: 24px;
   font-weight: bold;
   margin-left: 90px;
 }
 li::first-letter{
- font-size: 30px; 
+  font-size: 30px; 
   text-transform: uppercase;
   color: #bb0441;
 }
 li{
- margin-left: 6.25rem; 
+  margin-left: 6.25rem; 
   font-family: "Lato", sans-serif;
   font-weight: bold;
   list-style-type: none;
@@ -553,7 +553,7 @@ li{
   .shape{
     clip-path: ellipse(95% 85% at 16% 0);
     height: 295px;
-    width: 301px;
+    width: 299px;
   }
   .image img{
     width: 118px;
@@ -574,7 +574,7 @@ li{
   .round{
     clip-path: ellipse(90% 70% at 16% 0);
     height: 289px;
-    width: 300px;
+    width: 299px;
   }
   .images img{
     width: 110px;
@@ -585,14 +585,14 @@ li{
     margin-top: -130px;
     transform: rotate(180deg);
     height: 293px;
-    width: 300px;
+    width: 299px;
   }
   .id{
     max-width: 73%;
     margin-left: 8px;
   }
   .box{
-    width: 338px;
+    width: 336.8px;
   }
   .sub-write{
     text-align: center;
@@ -623,26 +623,42 @@ li{
     max-width: 100%;
   }
   .joker{
-  width: 380px;
-  height: 525px;
+    width: 380px;
+    height: 10%;
+    border-radius: 18px;
   }
-.tango{
-  width: 350px;
-  height: 490px;
-    border-bottom-left-radius: none;
-}
-.tony img{
- width: 210px; 
-  height: 200px;
-}
-.para{
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-  .Card{
-    margin-top: 5px;
-    margin-right: -2rem;
+  .tango{
+    width: 350px;
+    height: 50%;
+    border-radius: 12px;
+    margin: 12px auto;
+  }
+  .tony img{
+    width: 330px;
+    border-radius: 10px;
+    margin-top: 6px;
+    margin-left: 10px;
+  }
+  .para{
+    margin-top: 1rem;
+  }
+  .hero{
+    margin-top: 1px;
+    font-family: "Rubik", sans-serif;
+  }
+  .front{
+    margin: 16px auto;
+    font-family: "Lato", sans-serif;
+  }
+  li{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 17px;
+  }
+  li:nth-child(even){
+    background-color: pink;
+  }
+  li:nth-child(odd){
+    background-color: lightcoral;
   }
 }
-
