@@ -540,6 +540,20 @@ li{
   font-weight: bold;
   list-style-type: none;
 }
+.product{
+  background-color: #f3ead3;
+  margin: 100px auto;
+  max-width: 90%;
+}
+.product-file{
+  width: 300px;
+  height: 500px;
+  background-color: #d5c9fb;
+  border-radius: 10px;
+}
+.product-image img{
+  margin-top: -11rem;
+}
 @media(max-width: 768px){
   .container{
     display: grid;
